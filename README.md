@@ -25,8 +25,7 @@ sklearn, pandas, numpy,matplotlib, seaborn
 
 
 #### Code Example - Lipinski’s Rule application
-
-	  scores = []
+scores = []
     for name, clf in zip(names, classifiers):
     clf.fit(X_train, Y_train)
     score = clf.score(X_test, Y_test)
